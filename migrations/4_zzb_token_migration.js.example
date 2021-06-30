@@ -1,8 +1,0 @@
-//const ZzbToken = artifacts.require("ZzbToken");
-//const DEX = artifacts.require("DEX");
-
-//module.exports = async function (deployer) {
-//  await deployer.deploy(ZzbToken);
-//  const token = await ZzbToken.deployed();
-//  await deployer.deploy(DEX, token.address);
-//};
