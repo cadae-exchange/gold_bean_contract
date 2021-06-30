@@ -2,11 +2,11 @@
 
 ## 一. 开发环境
 
-node 12.16.1
-Truffle v5.3.3 (core: 5.3.3)
-Solidity - 0.8.1 (solc-js)
-Node v10.16.0
-Web3.js v1.3.5
+1. node 12.16.1
+2. Truffle v5.3.3 (core: 5.3.3)
+3. Solidity - 0.8.1 (solc-js)
+4. Node v10.16.0
+5. Web3.js v1.3.5
 
 
 ## 二. 运行命令
