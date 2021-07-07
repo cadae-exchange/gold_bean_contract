@@ -59,17 +59,9 @@ contract BeanDigging {
   mapping (address => Member) private membersInfo;                             // 全部用户mapping
 
   BeanDiggingMachine[] private totalMachines;                                  // 全部挖豆机列表
-  //mapping (address => BeanDiggingMachine[]) private memberMachinesInfo;        // 用户矿机持有列表
-
   BoomBonusRecord[] private totalBoomBonusRecords;                             // 全部爆块奖励发放记录列表
-  //mapping (address => BoomBonusRecord[]) private memberBoomBonusInfo;          // 指定用户爆块奖励发放记录
-
   HoldingBonusRecord[] private totalHoldingBonusRecords;                       // 全部持有矿机分红记录列表
-  //mapping (uint => HoldingBonusRecord[]) private mapHoldingBonusRecords;       // 全部持有矿机分红记录列表(按照阶段)
-  //mapping (address => HoldingBonusRecord[]) private memberHoldingBonusInfo;    // 指定用户持有矿机分红记录
-
   DestroyedBonusRecord[] private totalDestroyedBonusRecords;                   // 全部销毁奖励记录列表
-
   UnhandledHoldingBonusRecord[] private totalUnhandledHoldingBonusRecords;     // 全部未完成发放持矿机奖励
 
   mapping(uint256=>bool) myRequests;      // oracle  调用请求
